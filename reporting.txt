@@ -1,0 +1,38 @@
+
+Hi Rich, 
+
+Update for April 10, 2017
+
+Move code to fieldops
+Collaborate with rachel for testing
+add database information for specific agent so that agent will display as different profile pic 
+---------- for bookphonecall.com login wordpress-------------
+Create plugin for ajax login 
+Initialized all the files requirements
+Create ui login and set ids to be called in the ajax request
+hit login button it should get username and password and trigger in ajax sent to backend 
+prevent form to redirect or submit
+trigger data to backend
+assign json response to a variable
+ 
+Tomorrow continue with bookphonecall.com login wordpress
+
+
+
+
+
+back trigger and use wp function wp_logon and return true or false if success login failed
+if success login get user information and return as json 
+set values as current logged and prepare for step 4 and move to step 4 with values
+
+check if triggered user is exist 
+get user by email
+convert to json encode 
+return user as json value
+return false status because not found any user matched
+ 
+ convert parse json response
+ use trigger not found
+ print user info just logged in
+ assign values to fields
+ move next slide, trigger click button
